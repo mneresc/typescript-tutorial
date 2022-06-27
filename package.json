@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "lite-server --baseDir=dist",
     "start": "concurrently \"npm run watch\" \"npm run server\"",
+    "watch": "tsc -w",
     "compile":"tsc"
   },
   "author": "",
