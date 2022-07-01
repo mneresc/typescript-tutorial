@@ -9,3 +9,9 @@ form.addEventListener('submit', event => {
     event.preventDefault();
     negociacaoControler.adiciona();
 })
+
+const botaoImportar = document.querySelector('#botao-importar')
+botaoImportar.addEventListener('click', event => {
+    event.preventDefault();
+    negociacaoControler.importar();
+})
